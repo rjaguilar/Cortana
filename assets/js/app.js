@@ -9,7 +9,7 @@
  ========================================================== */
 
 (function(){
-  var app = angular.module('cortana', ['ui.bootstrap']);
+  var app = angular.module('cortana', ['ui.bootstrap', 'starship.core']);
 
   app.controller('MainController', function($scope) {
   });
