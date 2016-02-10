@@ -48,7 +48,7 @@ gulp.task('scripts', function() {
 // JS vendors concat and minify
 gulp.task('js_vendors', function() {
   gulp.src([
-      'vendors/jquery/dist/jquery.js',
+      'vendors/jquery/jquery.js',
       'vendors/Slidebars/dist/slidebars.js',
       'vendors/angular/angular.js',
       'vendors/angular-bootstrap/ui-bootstrap.js',
