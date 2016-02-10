@@ -52,7 +52,12 @@ gulp.task('js_vendors', function() {
       'vendors/Slidebars/dist/slidebars.js',
       'vendors/angular/angular.js',
       'vendors/angular-bootstrap/ui-bootstrap.js',
-      'vendors/angular-bootstrap/ui-bootstrap-tpls.js'
+      'vendors/angular-bootstrap/ui-bootstrap-tpls.js',
+      'vendors/angular-animate/angular-animate.js',
+      'vendors/angular-cookies/angular-cookies.js',
+      'vendors/angular-localization/angular-localization.js',
+      'vendors/angular-sanitize/angular-sanitize.js',
+      'vendors/moment/moment.js'
     ])
     .pipe(concat('vendors.min.js'))
     .pipe(uglify())
