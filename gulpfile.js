@@ -58,6 +58,7 @@ gulp.task('js_vendors', function() {
       'vendors/angular-localization/angular-localization.js',
       'vendors/angular-sanitize/angular-sanitize.js',
       'vendors/angular-resource/angular-resource.js',
+      'vendors/angular-ui-router/release/angular-ui-router.js',
       'vendors/moment/moment.js'
     ])
     .pipe(concat('vendors.min.js'))
