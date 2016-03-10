@@ -60,6 +60,7 @@ gulp.task('js_vendors', function() {
       'vendors/angular-resource/angular-resource.js',
       'vendors/angular-ui-router/release/angular-ui-router.js',
       'vendors/ngstorage/ngStorage.js',
+      'vendors/lodash/dist/lodash.min.js',
       'vendors/moment/moment.js'
     ])
     .pipe(concat('vendors.min.js'))
